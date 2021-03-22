@@ -1,0 +1,18 @@
+--outputdir
+C:\Users\Citigo\AppData\Local\Temp\RIDE1_bfkgpe.d
+-C
+off
+-W
+234
+--suite
+CMC Test.Testcases.Search
+--test
+CMC Test.Testcases.Search.TC03
+--suite
+CMC Test.Testcases.Search
+--test
+CMC Test.Testcases.Search.TC02
+--suite
+CMC Test.Testcases.Search
+--test
+CMC Test.Testcases.Search.TC01

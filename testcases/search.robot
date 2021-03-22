@@ -17,7 +17,8 @@ TC01
     [Documentation]    Check search suggestion
     Wait Until Element Is Visible    ${input_search}    ${TIME_OUT}
     Input Text    ${input_search}    ${keyword_test}
-    input Text    ${input_search}    ${EMPTY}
+    Sleep   5s
+    Input Text    ${input_search}    ${SPACE}
     Wait Until Element Is Visible    ${span_sugguest_keyword}    ${TIME_OUT}
     Check search suggestion    ${keyword_test}
 
@@ -26,7 +27,7 @@ TC02
     Wait Until Element Is Visible    ${input_search}    ${TIME_OUT}
     Input Text    ${input_search}    ${keyword_test}
     Click Button    ${button_search}
-    Wait Until Element Is Visible    ${link_first_item}    ${TIME_OUT}
+    Wait Until Element Is Visible    ${link_item}    ${TIME_OUT}
     Execute Javascript    history.back()
 
 TC03
@@ -34,7 +35,7 @@ TC03
     Wait Until Element Is Visible    ${input_search}    ${TIME_OUT}
     Input Text    ${input_search}    ${keyword_test}
     Press Key    ${input_search}    ${ENTER}
-    Wait Until Element Is Visible    ${link_first_item}    ${TIME_OUT}
+    Wait Until Element Is Visible    ${link_item}    ${TIME_OUT}
 
 *** Keywords ***
 Check search suggestion

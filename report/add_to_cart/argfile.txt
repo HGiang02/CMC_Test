@@ -1,0 +1,14 @@
+--outputdir
+C:\Users\Citigo\AppData\Local\Temp\RIDE1_bfkgpe.d
+-C
+off
+-W
+234
+--suite
+CMC Test.Testcases.Add To Cart
+--test
+CMC Test.Testcases.Add To Cart.TC02
+--suite
+CMC Test.Testcases.Add To Cart
+--test
+CMC Test.Testcases.Add To Cart.TC01
